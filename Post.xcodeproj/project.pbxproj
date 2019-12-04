@@ -13,6 +13,7 @@
 		2A83FD542397772800C2460A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A83FD532397772800C2460A /* Assets.xcassets */; };
 		2A83FD572397772800C2460A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A83FD552397772800C2460A /* LaunchScreen.storyboard */; };
 		2A83FD632397797100C2460A /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A83FD622397797100C2460A /* Post.swift */; };
+		2A83FD6523977B3500C2460A /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A83FD6423977B3500C2460A /* PostController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2A83FD562397772800C2460A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A83FD582397772800C2460A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		2A83FD622397797100C2460A /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		2A83FD6423977B3500C2460A /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +97,17 @@
 		2A83FD612397796200C2460A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2A83FD6623977B3C00C2460A /* ModelControllers */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2A83FD6623977B3C00C2460A /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2A83FD6423977B3500C2460A /* PostController.swift */,
+			);
+			path = ModelControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A83FD632397797100C2460A /* Post.swift in Sources */,
+				2A83FD6523977B3500C2460A /* PostController.swift in Sources */,
 				2A83FD4B2397772500C2460A /* AppDelegate.swift in Sources */,
 				2A83FD4D2397772500C2460A /* SceneDelegate.swift in Sources */,
 			);
